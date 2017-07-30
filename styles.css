@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 600px;
+  height: 800px;
+}
+
+main>.button {
+  width: 25%;
+  margin: 0;
+  border-radius: 0;
+  height: 20%;
+}
+
+main>.button:active {
+  background-color: rgb(131, 193, 120);
+}
+
+main>.button:focus {
+  outline: none;
+}
+
+main>p {
+  width: 75%;
+  height: 20%;
+  margin: 0;
+  text-align: right;
+  vertical-align: center;
+}
+
+main>.operator {
+  background-color: rgb(131, 193, 120);
+  color: black;
+}
+
+main>.operator:active {
+  color: white;
+}
+
+.style {
+  background-color: rgb(100, 178, 85);
+  border: solid 1px rgb(162, 209, 154);
+  font-size: 30px;
+  color: white;
+}
